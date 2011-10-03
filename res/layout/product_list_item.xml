@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="horizontal" android:weightSum="1">
+    <ImageView android:layout_gravity="left" android:id="@+id/product_icon" android:layout_width="105dp" android:layout_weight="0.05" android:layout_height="115dp"></ImageView>
+    <LinearLayout android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_width="185dp" android:layout_height="125dp">
+        <TextView android:layout_height="wrap_content" android:paddingLeft="10dip" android:layout_width="wrap_content" android:id="@+id/product_name" android:text="@string/products_list_name" android:textSize="12pt"></TextView>
+        <TextView android:layout_height="wrap_content" android:paddingLeft="10dip" android:layout_width="wrap_content" android:textSize="8pt" android:id="@+id/product_cost" android:text="@string/products_list_cost"></TextView>
+        <TextView android:layout_height="wrap_content" android:paddingLeft="10dip" android:layout_width="wrap_content" android:textSize="8pt" android:id="@+id/product_availability" android:text="@string/products_list_availability"></TextView>
+        <TextView android:layout_height="wrap_content" android:paddingLeft="10dip" android:textSize="8pt" android:layout_width="wrap_content" android:id="@+id/product_id" android:text="@string/products_list_id" android:visibility="invisible"></TextView>
+    </LinearLayout>
+    
+</LinearLayout>

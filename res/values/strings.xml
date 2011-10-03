@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GoodbuyActivity!</string>
+    <string name="app_name">Goodbuy</string>
+    <string name="shops_list_title">Shops</string>
+    <string name="order_menu_title">List of shops</string>
+    <string name="malls_menu_title">Malls</string>
+    <string name="cart_menu_title">Cart</string>
+    <string name="settings_menu_tile">Settings</string>
+    <string name="shops_list_desc">Shop description</string>
+    <string name="shops_list_contacts">Contacts</string>
+    <string name="shops_list_id">ID</string>
+    <string name="products_list_title">Products</string>
+    <string name="cat_list_title">Shop Categories</string>
+    <string name="products_list_name">Product name</string>
+    <string name="products_list_cost">Product cost</string>
+    <string name="products_list_availability">Available</string>
+    <string name="products_list_id">ID</string>
+    <string name="cart_title">Your shopping cart</string>
+    <string name="incrementor">+</string>
+    <string name="decrementor">-</string>
+    <string name="total">total</string>
+    <string name="order">Order</string>
+    <string name="price">13</string>
+    <string name="defaultProductAmount">1</string>
+    <string name="main_screen">MainScreen</string>
+    <string name="splash_screen">SplashScreen</string>
+    <string name="X">X</string>
+</resources>
+

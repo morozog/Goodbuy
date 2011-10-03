@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="horizontal">
+    <TextView android:layout_height="wrap_content" android:paddingLeft="10dip" android:text="Shop Name" android:layout_width="wrap_content" android:id="@+id/cart_item_name" android:textSize="10pt"></TextView>
+    <TextView android:layout_height="wrap_content" android:paddingLeft="10dip" android:text="Shop Name" android:layout_width="wrap_content" android:id="@+id/cart_item_quantity" android:textSize="10pt"></TextView>
+    <TextView android:layout_height="wrap_content" android:paddingLeft="10dip" android:textSize="14pt" android:layout_width="wrap_content" android:text="@string/products_list_id" android:visibility="invisible" android:id="@+id/cart_item_id"></TextView>
+    <Button android:layout_height="wrap_content" android:id="@+id/remove_cart_item" android:layout_width="wrap_content" android:text="@string/X"></Button>
+    
+</LinearLayout>
